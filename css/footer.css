@@ -1,0 +1,15 @@
+footer a.scrolltop {
+    position: fixed;
+    background-size: 75%;
+    width: 55px;
+    height: 55px;
+    font-size: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    bottom: 25px;
+    right: 25px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-image: url(../img/btop.svg);
+  }

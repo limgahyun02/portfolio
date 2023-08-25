@@ -1,0 +1,43 @@
+article {
+    padding: 28em 0;
+    color: black;
+    position: relative;
+    background-image: url(../img/aperture.jpg);
+  }
+article .col-sm-6 .article-image{
+  position: absolute;
+  height: 700px;
+  left: 250px;
+  top: 85px;
+}
+  article .article-right {
+    width: 671px;
+    margin: 330px auto;
+    position: absolute;
+    right: 385px; 
+  }
+  @media (max-width: 767px) {
+    article {
+      text-align: center;
+    }
+    article img {
+      margin-bottom: 2em;
+    }
+  }
+  article p {
+    margin: 0em 0;
+    font-size: 27px;
+  }
+  article h2 {
+    font-size: 60px;
+    font-weight: 405px;
+    margin-top: -701px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article img {
+    border: 3px solid #e6e6e6;
+    position: absolute;
+  }

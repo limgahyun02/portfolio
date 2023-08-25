@@ -1,0 +1,123 @@
+html{
+    height: 100%;
+  }
+  body{
+    font-family: 'Noto Serif KR', serif;
+    height: 100%;
+  }
+  /* 공통클래스 스타일 */
+  .wrap{
+    width: 1440px;
+    margin: 0 auto;
+  }
+  /* 상단영역 */
+  header{
+    position: absolute;
+    width: 100%;
+  }
+  header .wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px; 
+  }
+  header h1{
+    width: 900px;
+  }
+  header h1 a{
+    padding: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    font-size: 40px;
+    height: 60px;
+    padding-top: 46px;
+    background-position: left center;
+    padding-left: 125px;
+  }
+  header>div>ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 72px;
+    height: 35px;
+  }
+  header>div>ul li{
+  border-bottom: 1px solid black;
+  }
+  header>div>ul li:hover{
+  border-bottom: 1px solid deeppink;
+  }
+  header > div > ul li:nth-child(1) a:hover{
+  color: deeppink;
+  }
+  header > div > ul li:nth-child(2) a:hover{
+  color: deeppink;
+  }
+  header > div > ul li:nth-child(3) a:hover{
+  color: deeppink;
+  }
+  header > div > ul li:nth-child(4) a:hover{
+  color: deeppink;
+  }
+  /* 타이틀영역 */
+  div#title{
+    height: 922px;
+    background-color: #ccc;
+    background-image: url(../img/aperture.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  div#title .wrap{
+    height: 100%;
+  }
+  div#title .wrap h2{
+    margin-bottom: -335px;
+  }
+ 
+  div#skill{
+  
+  }
+  div#skill h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 55px;
+  position: absolute;
+  top: -238px;
+  left: 670px;
+  width: calc(50%);
+  }
+  div#portfolio{
+    font-size: 35px;
+    background-image: url(../img/aperture.jpg);
+    background-size: auto;
+    height: 550px;
+  }
+  #portfolio .wrap{
+    display: flex;
+    justify-content: center;
+    padding: 85px;
+  }
+  div#contact{
+    background-image: url(../img/aperture.jpg);
+    display: flex;
+    font-size: 35px;
+    height: 630px;
+  }
+  #contact .wrap{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-right: 186px;
+  }
+  #contact h5{
+    font-size: 35px;
+  }
+  
+  #contact .wrap p{
+    line-height: 2;
+  }
