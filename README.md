@@ -38,8 +38,8 @@
 ## 스크린샷 또는 데모
 (포트폴리오 웹사이트의 스크린샷을 추가)
 - ![(주)삼성전자 홈페이지](https://github.com/limgahyun02/portfolio/assets/142555137/9003e391-610c-4119-b7fd-8afda055b27e)
-- ![(주)삼성전자 홈페이지 - 개인 리뉴얼](https://github.com/limgahyun02/portfolio/assets/142555137/6440dad2-b18e-455a-b738-765eeabe441f)
 - ![(주)삼성전자 홈페이지2](https://github.com/limgahyun02/portfolio/assets/142555137/bc801510-aacd-4dc0-bbf9-08b13619d73a)
+- ![(주)삼성전자 홈페이지 - 개인 리뉴얼](https://github.com/limgahyun02/portfolio/assets/142555137/6440dad2-b18e-455a-b738-765eeabe441f)
 - ![이선's 포트폴리오](https://github.com/limgahyun02/portfolio/assets/142555137/61957c5c-a73e-4caa-aaab-7ee62ecd124e)
 - ![Lim Ga Hyun Web Publisher Portfolio](https://github.com/limgahyun02/portfolio/assets/142555137/884504b0-0eff-4092-ad11-c61ca14157cd)
 - ![한국알콜산업 KAI](https://github.com/limgahyun02/portfolio/assets/142555137/64bb3ea5-e6a1-4634-a663-27fdb935c00a)
