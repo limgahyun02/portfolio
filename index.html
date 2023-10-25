@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
     <!-- 햄버거 -->
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="animate/animate.css"></script>
     <link rel="stylesheet" href="css/hamburder.css">
     <script  src="hamburger/script.js"></script>
@@ -38,6 +39,13 @@
         $(".scrolltop").click(function(){
           $("html,body").animate({scrollTop:0},1000);
         });
+      });
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/css/jquery.mb.YTPlayer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/jquery.mb.YTPlayer.min.js"></script>
+    <script>
+      jQuery( function() {
+      jQuery( '#background' ).YTPlayer();
       });
     </script>
 </head>
@@ -104,16 +112,21 @@
     <!--title-->
     <div id="title">
       <div class="wrap">
-        <div class="main-heading-wrapper">
-          <h1 data-ix="fade-in-heading">Website&nbsp;</h1>
-          <h1 data-ix="fade-in-heading-2">Interactions</h1>
-          <h1 class="without-code" data-ix="fade-in-heading-3">without</h1>
-          <h1 class="without-code" data-ix="fade-in-heading-4">code</h1>
       </div>
-            <h2>
-            연탄재 함부로 발로 차지 마라
-            너는 누구에게 한번이라도 뜨거운 사람이었느냐</h2>
-        </div>
+      <div id="background" class="player" data-property="{
+          videoURL: 'https://youtu.be/7u4CVRc689s',
+          mute: true,
+          showControls: false,
+          useOnMobile: true,
+          quality: 'highres',
+          containment: 'body',
+          loop: true,
+          autoPlay: true,
+          stopMovieOnBlur: false,
+          startAt: 0,
+          opacity: 1
+        }">
+      </div>
     </div>
     <!-- about -->
     <section id="about">
